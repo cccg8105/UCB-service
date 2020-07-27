@@ -1,44 +1,24 @@
 const fastify = require('fastify')({ logger: true })
-const routes = require('./routes')
+import routes from './routes'
+import { initialize } from './ucbController'
+import Yenv from 'yenv'
 
-fastify.route({
-  method: 'GET',
-  url: '/',
-  schema: {
-    // request needs to have a querystring with a `name` parameter
-    querystring: {
-      name: { type: 'string' },
-    },
-    // the response needs to be an object with an `hello` property of type 'string'
-    response: {
-      200: {
-        type: 'object',
-        properties: {
-          hello: { type: 'string' },
-        },
-      },
-    },
-  },
-  // this function is executed for every request before the handler is executed
-  preHandler: async (request, reply) => {
-    // E.g. check authentication
-  },
-  handler: async (request, reply) => {
-    return { hello: 'world' }
-  },
-})
+const env = new Yenv()
 
-routes.forEach((route, index) => {
+routes.forEach(route => {
   fastify.route(route)
 })
 
 const start = async () => {
+  initialize()
   try {
-    await fastify.listen(5000)
-    fastify.log.info(`server listening on ${fastify.server.address().port}`)
+    fastify.listen(env.PORT)
   } catch (err) {
     fastify.log.error(err)
     process.exit(1)
   }
 }
-start()
+
+if (env.NODE_ENV !== 'test') start()
+
+export default { fastify }

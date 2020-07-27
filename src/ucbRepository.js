@@ -1,31 +1,44 @@
-var MongoClient = require('mongodb').MongoClient
-var url = 'mongodb://localhost:27017'
-const { ObjectId } = require('mongodb')
+import Yenv from 'yenv'
+import { MongoClient } from 'mongodb'
+import { ObjectId } from 'mongodb'
 
-const client = new MongoClient(url, {
+const env = new Yenv()
+const client = new MongoClient(env.DB_SERVER.URL_CONNECTION, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
+
 client.connect()
-const ucbCollection = client.db('ucb_db').collection('info_arms')
+const ucbCollection = client
+  .db(env.DB_SERVER.DATABASE)
+  .collection(env.DB_SERVER.COLLECTION)
 
 class UcbRepository {
   async getInfoUcb() {
-    return await ucbCollection.findOne({})
+    try {
+      return await ucbCollection.findOne({})
+    } catch (err) {
+      console.log(err)
+    }
   }
 
   async saveInfoUcb(id, info) {
-    if (!id) {
-      const resp = await ucbCollection.insertOne({ ucbInfo: info })
-      id = resp.insertedId
-    } else {
-      await ucbCollection.updateOne(
-        { _id: ObjectId(id) },
-        { $set: { ucbInfo: info } }
-      )
+    try {
+      if (!id) {
+        const resp = await ucbCollection.insertOne({ ucbInfo: info })
+        id = resp.insertedId
+      } else {
+        await ucbCollection.updateOne(
+          { _id: ObjectId(id) },
+          { $set: { ucbInfo: info } }
+        )
+      }
+    } catch (err) {
+      console.log(err)
     }
+
     return id
   }
 }
 
-module.exports = UcbRepository
+export default UcbRepository

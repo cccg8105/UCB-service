@@ -1,16 +1,16 @@
-const ucbController = require('./ucbController')
+import { getOption, setReward } from './ucbController'
 
 const routes = [
   {
     method: 'GET',
     url: '/api/ucb',
-    handler: ucbController.obtenerOpcion,
+    handler: getOption,
   },
   {
     method: 'PUT',
     url: '/api/ucb',
-    handler: ucbController.asignarRecompensa,
+    handler: setReward,
   },
 ]
 
-module.exports = routes
+export default routes

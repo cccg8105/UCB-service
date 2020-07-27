@@ -1,18 +1,22 @@
-const service = require('./ucbService')
+import { select, reward as _reward, init } from './ucbService'
 
-exports.obtenerOpcion = async (req, reply) => {
-  const result = await service.select()
-  reply
-    .code(200)
-    .header('Content-Type', 'application/json; charset=utf-8')
-    .send({ opcion: 'Opcion seleccionada: ' + result })
+export async function initialize() {
+  init()
 }
 
-exports.asignarRecompensa = async (req, reply) => {
-  const { opcion, recompensa } = req.body
-  await service.reward(opcion, recompensa)
+export async function getOption(_, reply) {
+  const result = await select()
   reply
     .code(200)
     .header('Content-Type', 'application/json; charset=utf-8')
-    .send({ respuesta: 'Datos guardados correctamente' })
+    .send({ option: result })
+}
+
+export async function setReward(req, reply) {
+  const { option, reward } = req.body
+  await _reward(option, reward)
+  reply
+    .code(200)
+    .header('Content-Type', 'application/json; charset=utf-8')
+    .send({ response: 'Reward assigned' })
 }
