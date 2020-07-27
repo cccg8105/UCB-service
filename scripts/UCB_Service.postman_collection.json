@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "d478b98e-9af5-4908-b17c-654bb47c81ca",
+		"name": "UCB_Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "set reward",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "7c8251f7-9ae3-47a0-9a88-d9a87f5da61a",
+						"exec": [
+							"pm.sendRequest(\"http://localhost:5000/api/ucb\", function(err, response) {\r",
+							"    var selection = response.json()\r",
+							"    pm.collectionVariables.set(\"option\", selection.option)\r",
+							"\r",
+							"    var prob = [0.23, 0.25, 0.20]\r",
+							"    var num = Math.random()\r",
+							"    if(num <= prob[selection.option])\r",
+							"        pm.collectionVariables.set(\"reward\", 1)\r",
+							"    else\r",
+							"        pm.collectionVariables.set(\"reward\", 0)\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2258fbc5-dd16-4084-89a7-31ff7f286a03",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"option\": {{option}}, \n\t\"reward\": {{reward}}\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5000/api/ucb",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"ucb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get option",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/api/ucb",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"ucb"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c6f1a958-a944-4ec8-b0cb-01dc10e00975",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "40b01704-a0b3-4c1c-a795-3a21b0d45def",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "1b3bc24f-59f6-4aca-a139-51197464a5da",
+			"key": "opcion",
+			"value": 0
+		},
+		{
+			"id": "02b394ff-a79f-4946-b3a7-5ea45059a06c",
+			"key": "recompensa",
+			"value": 1
+		},
+		{
+			"id": "5414f745-3db4-435d-952c-c4a8b3d21ec9",
+			"key": "option",
+			"value": 1
+		},
+		{
+			"id": "9990a0e4-d10f-4530-937a-703e858dd1ad",
+			"key": "reward",
+			"value": 1
+		}
+	],
+	"protocolProfileBehavior": {}
+}
