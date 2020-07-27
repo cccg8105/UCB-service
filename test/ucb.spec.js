@@ -17,27 +17,23 @@ afterAll(() => server.close())
 
 describe('GET /ucb', () => {
   it(
+    'validate error code 500',
+    async () => {
+      await request
+        .get('/api/ucb')
+        .set('Accept', 'application/json')
+        .expect(500)
+    },
+    TIMEOUT
+  )
+
+  it(
     'validate get best arm',
     async () => {
       const response = await request
         .get('/api/ucb')
         .set('Accept', 'application/json')
-        .expect(500)
-      console.log(response)
-      // const data = response.body
-      // expect(Object.keys(data)).toEqual(expect.arrayContaining(['option']))
-    },
-    TIMEOUT
-  )
-
-  it(
-    'validate get best arm 2',
-    async () => {
-      const response = await request
-        .get('/api/ucb')
-        .set('Accept', 'application/json')
         .expect(200)
-      //console.log(response)
       const data = response.body
       expect(Object.keys(data)).toEqual(expect.arrayContaining(['option']))
     },
@@ -45,15 +41,17 @@ describe('GET /ucb', () => {
   )
 
   it(
-    'validate get best arm 3',
+    'validate set reward',
     async () => {
+      const input = { option: 0, reward: 1 }
+
       const response = await request
-        .get('/api/ucb')
+        .put('/api/ucb')
+        .send(input)
         .set('Accept', 'application/json')
         .expect(200)
-      //console.log(response)
       const data = response.body
-      expect(Object.keys(data)).toEqual(expect.arrayContaining(['option']))
+      expect(Object.keys(data)).toEqual(expect.arrayContaining(['response']))
     },
     TIMEOUT
   )
