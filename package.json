@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cross-env": "^7.0.2",
-    "fastify": "^2.14.1",
+    "fastify": "^2.15.1",
     "mongodb": "^3.5.7",
     "ucb": "^3.0.1",
     "yenv": "^2.1.1"
