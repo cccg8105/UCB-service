@@ -1,6 +1,9 @@
 # UCB-Service
 Servicio que emplea el algoritmo [UCB](https://github.com/kurttheviking/ucb-js) para optimización de anuncios web.
 
+## Prerequisitos
+
+
 ## Caso de aplicación
 Este servicio puede aplicarse cuando una página web necesita mostrar uno de tres posibles anuncios; como por ejemplo A, B y C; y el usuario está obligado a realizar dos acciones:
 
@@ -14,7 +17,7 @@ Cada uno de los anuncios publicitarios tiene un porcentaje de efectividad intrí
 Bajo este escenario se puede aplicar el servicio propuesto, para la  selección en cada momento de uno de los 3 anuncios de la página web. Asimismo, conforme se vayan realizando las interacciones con el usuario, el servicio aprenderá automaticamente qué anuncio es el que está obteniendo mayores ingresos y lo seleccionará más veces que los demás. Esto sucede como se describe en el siguiente gráfico:
 ![flujo](/imgs/flujo.png)
 
-## Diseño propuesto
+## Diseño
 
 La solución consta de 3 componentes principales. El primero, es el encargado de la lógica del algoritmo de selección UCB. El segundo, es el servicio como tal, encargado de exponer la funcionalidad. El último, es el componente de persistencia, encargado de almacenar los parámetros de decisión del algoritmo. 
 
@@ -24,4 +27,14 @@ El siguiente gráfico muestra cómo interactúan los componentes en el escenario
 
 ![secuencia](/imgs/Diagrama_secuencia.png)
 
-## [Documentación](/docs/investigacion.pdf)
+## Documentación 
+[Documentación](/docs/investigacion.pdf)
+
+
+## uml: sequence diagram
+Here I will embed PlantUML markup to generate a sequence diagram.
+
+I can include as many plantuml segments as I want in my Markdown, and the diagrams can be of any type supported by PlantUML.
+
+![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/cccg8105/UCB-service/docs/docs/diagrams/componentes.iuml
+)
