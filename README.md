@@ -28,4 +28,4 @@ El siguiente gráfico muestra cómo interactúan los componentes en el escenario
 ![secuencia](/imgs/Diagrama_secuencia.png)
 
 ## Caso de estudio
-[Documentación](/docs/CasoEstudio.pdf)
+[Implementación de aprendizaje automático para la selección óptima de anuncios en páginas web](/docs/CasoEstudio.pdf)
