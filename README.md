@@ -27,14 +27,5 @@ El siguiente gráfico muestra cómo interactúan los componentes en el escenario
 
 ![secuencia](/imgs/Diagrama_secuencia.png)
 
-## Documentación 
-[Documentación](/docs/investigacion.pdf)
-
-
-## uml: sequence diagram
-Here I will embed PlantUML markup to generate a sequence diagram.
-
-I can include as many plantuml segments as I want in my Markdown, and the diagrams can be of any type supported by PlantUML.
-
-![system overview](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/cccg8105/UCB-service/docs/docs/diagrams/componentes.iuml
-)
+## Caso de estudio
+[Documentación](/docs/CasoEstudio.pdf)
