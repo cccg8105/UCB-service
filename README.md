@@ -1,6 +1,8 @@
 # UCB-Service
 Servicio que emplea el algoritmo [UCB](https://github.com/kurttheviking/ucb-js) para optimización de anuncios web.
 
+![Componentes](/imgs/barras.gif)
+
 ## Prerequisitos
 
 
