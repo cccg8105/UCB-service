@@ -3,10 +3,13 @@ import { MongoClient } from 'mongodb'
 import { ObjectId } from 'mongodb'
 
 const env = new Yenv()
-const client = new MongoClient(env.DB_SERVER.URL_CONNECTION, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+const client = new MongoClient(
+  `mongodb://${env.DB_SERVER.SERVER_NAME}:${env.DB_SERVER.PORT}`,
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+)
 
 client.connect()
 const ucbCollection = client

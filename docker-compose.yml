@@ -1,0 +1,25 @@
+version: '3'
+volumes:
+  mongo_data:
+# networks: 
+#   ucb_net:
+#     driver: host
+services:
+  mongo:
+    container_name: mongoDB-container
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/var/lib/mongo
+  api:
+    container_name: ucb-container
+    build: .
+    image: ucb-service:1
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+    # links: 
+    #   - mongo:mongoDB-container
+    
