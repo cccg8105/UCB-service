@@ -9,9 +9,9 @@ entity http--><ellipse cx="278" cy="84.9531" fill="#00FF00" filter="url(#f1q8ytp
 link Servicio to http--><path d="M233.68,84.9531 C245.452,84.9531 257.225,84.9531 268.997,84.9531 " fill="none" id="Servicio-http" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[932912cf3030d9dc950972102a85811c]
 link Servicio to Persistencia--><path d="M183.927,108.1561 C183.158,124.0901 182.116,145.6433 181.299,162.554 " fill="none" id="Servicio-to-Persistencia" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="181.054,167.6417,185.4836,158.8452,181.2953,162.6476,177.493,158.4592,181.054,167.6417" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[1577ec2866609b801f532cc373c353f1]
 reverse link UCB to Servicio--><path d="M106.746,84.9531 C116.645,84.9531 126.543,84.9531 136.441,84.9531 " fill="none" id="UCB-backto-Servicio" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="101.57,84.9531,110.57,88.9531,106.57,84.9531,110.57,80.9531,101.57,84.9531" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[bae0870aa9666cde3bef20f469bd5634]
-link Web to http--><path d="M322.246,84.9531 C312.291,84.9531 302.336,84.9531 292.382,84.9531 " fill="none" id="Web-to-http" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="287.176,84.9531,296.176,88.9531,292.176,84.9531,296.176,80.9531,287.176,84.9531" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[6d871c51244b24e4f20f93a3b0686d46]
+link Web to http--><path d="M322.246,84.9531 C312.291,84.9531 302.336,84.9531 292.382,84.9531 " fill="none" id="Web-to-http" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="287.176,84.9531,296.176,88.9531,292.176,84.9531,296.176,80.9531,287.176,84.9531" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b9937eb8b2fd630cea0c0bebc4d9387b]
 @startuml
-!include https://raw.githubusercontent.com/cccg8105/UCB-service/master/docs/diagrams/styles.puml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
 title Diagrama de componentes
 
 interface "HTTP" as http
