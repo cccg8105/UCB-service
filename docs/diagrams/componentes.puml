@@ -4,7 +4,6 @@ title Diagrama de componentes
 
 interface "HTTP" as http
 
-
 package "Backend" {
     database Persistencia
     [Servicio] - http
