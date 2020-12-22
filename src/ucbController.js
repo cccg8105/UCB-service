@@ -4,6 +4,13 @@ export async function initialize() {
   init()
 }
 
+export async function infoService(_, reply) {
+  reply
+    .code(200)
+    .header('Content-Type', 'text/plain; charset=utf-8')
+    .send('UCB service available')
+}
+
 export async function getOption(_, reply) {
   const result = await select()
   reply
