@@ -1,5 +1,5 @@
 @startuml
-!include styles.puml
+!include https://raw.githubusercontent.com/cccg8105/UCB-service/master/docs/diagrams/styles.puml
 title Diagrama de componentes
 
 interface "HTTP" as http
