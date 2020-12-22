@@ -1,0 +1,44 @@
+@startuml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+
+actor Usuario
+boundary Web
+control Servicio
+entity UCB
+database Persistencia
+
+== Inicialización ==
+Servicio -> Persistencia : ObtenerValores
+note left
+Esto ocurre cuando se 
+inicia el servicio.
+end note
+
+alt Valores iniciales guardados en BD 
+Persistencia --> Servicio : algorithmValues
+create UCB
+Servicio -> UCB: Crear(algorithmValues)
+else No existen valores iniciales
+Persistencia --> Servicio
+create UCB
+Servicio -> UCB: Crear()
+end
+
+
+== Obtener anuncio ==
+Usuario -> Web : Ingresar a la página
+Web -> Servicio : obtenerOpcionAnuncio()
+Servicio -> UCB : select()
+UCB --> Servicio : arm
+Servicio --> Web : Opcion
+Web --> Usuario : Muestra anuncio
+
+== Seleccionar anuncio ==
+Usuario -> Web : Hacer clic en anuncio
+Web -> Servicio : AsignarRecompensa(opcion, reconpensa)
+Servicio -> UCB : reward(arm, reward)
+UCB --> Servicio : algorithmValues
+Servicio -> Persistencia : GuardarValores(algorithmValues)
+
+
+@enduml

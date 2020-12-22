@@ -1,0 +1,37 @@
+@startuml
+
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+
+|Cliente|
+start
+:Ingresar a 
+aplicación web;
+|#AntiqueWhite|Portal web|
+:Seleccionar anuncio 
+de producto;
+|#LightGreen|Servicio|
+#LightSkyBlue:Obtener anuncio óptimo
+con algoritmo UCB;
+|Portal web|
+:Mostrar ventana
+del anuncio;
+|Cliente|
+if (¿Promoción interesante?) then (sí)
+:Comprar producto;
+(A)
+detach
+else (no)
+|Cliente|
+:Cerrar ventana;
+(A)
+detach
+endif
+|Portal web|
+(A)
+:Asignar recompensa o 
+penalidad al anuncio;
+|Servicio|
+#LightSkyBlue:Guardar valor y actualizar
+indicadores en UCB;
+end
+@enduml
