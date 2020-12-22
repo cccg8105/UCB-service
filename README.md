@@ -23,7 +23,7 @@ Bajo este escenario se puede aplicar el servicio propuesto, para la  selección 
 
 La solución consta de 3 componentes principales. El primero, es el encargado de la lógica del algoritmo de selección UCB. El segundo, es el servicio como tal, encargado de exponer la funcionalidad. El último, es el componente de persistencia, encargado de almacenar los parámetros de decisión del algoritmo. 
 
-![Componentes](/imgs/Diagrama_componentes.png)
+![](/imgs/componentes.svg)
 
 El siguiente gráfico muestra cómo interactúan los componentes en el escenario indicado anteriormente:
 
