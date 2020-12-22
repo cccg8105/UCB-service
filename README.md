@@ -31,3 +31,7 @@ El siguiente gráfico muestra cómo interactúan los componentes en el escenario
 
 ## Caso de estudio
 [Implementación de aprendizaje automático para la selección óptima de anuncios en páginas web](/docs/CasoEstudio.pdf)
+
+### Anexos
+[A/B Testing una buena forma de medir el éxito de tus campañas](/docs/anexos/A_B Testing_ una buena forma de medir el éxito de tus campañas.pdf)
+[A/B Testing una buena forma de medir el éxito de tus campañas](/docs/anexos/A_B Testing_ una buena forma de medir el éxito de tus campañas.pdf)
