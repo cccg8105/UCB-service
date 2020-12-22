@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="902px" preserveAspectRatio="none" style="width:821px;height:902px;" version="1.1" viewBox="0 0 821 902" width="821px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qz1hv4gwj9xz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" height="191.6641" style="stroke:#000000;stroke-width:2.0;" width="362.5" x="442" y="202.6953"/><rect fill="#FFFFFF" height="87.1016" style="stroke:none;stroke-width:1.0;" width="362.5" x="442" y="307.2578"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="33" x2="33" y1="88.2969" y2="818.0859"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="192" x2="192" y1="88.2969" y2="818.0859"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="483" x2="483" y1="88.2969" y2="818.0859"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="673.5" x2="673.5" y1="375.2109" y2="818.0859"/><line style="stroke:#008000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="747.5" x2="747.5" y1="88.2969" y2="818.0859"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="5" y="84.9951">Usuario</text><ellipse cx="33.5" cy="15" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="8" ry="8" style="stroke:#708090;stroke-width:2.0;"/><path d="M33.5,23 L33.5,50 M20.5,31 L46.5,31 M33.5,50 L20.5,65 M33.5,50 L46.5,65 " fill="none" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="5" y="830.0811">Usuario</text><ellipse cx="33.5" cy="843.3828" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="8" ry="8" style="stroke:#708090;stroke-width:2.0;"/><path d="M33.5,851.3828 L33.5,878.3828 M20.5,859.3828 L46.5,859.3828 M33.5,878.3828 L20.5,893.3828 M33.5,878.3828 L46.5,893.3828 " fill="none" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="173" y="84.9951">Web</text><path d="M172,44 L172,68 M172,56 L189,56 " fill="none" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:2.0;"/><ellipse cx="201" cy="56" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="173" y="830.0811">Web</text><path d="M172,837.3828 L172,861.3828 M172,849.3828 L189,849.3828 " fill="none" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:2.0;"/><ellipse cx="201" cy="849.3828" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="452" y="84.9951">Servicio</text><ellipse cx="483.5" cy="56" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><polygon fill="#708090" points="479.5,44,485.5,39,483.5,44,485.5,49,479.5,44" style="stroke:#708090;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="452" y="830.0811">Servicio</text><ellipse cx="483.5" cy="849.3828" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><polygon fill="#708090" points="479.5,837.3828,485.5,832.3828,483.5,837.3828,485.5,842.3828,479.5,837.3828" style="stroke:#708090;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="656.5" y="830.0811">UCB</text><ellipse cx="674" cy="849.3828" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><line style="stroke:#708090;stroke-width:2.0;" x1="662" x2="686" y1="863.3828" y2="863.3828"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="701.5" y="84.9951">Persistencia</text><path d="M730,36 C730,26 748,26 748,26 C748,26 766,26 766,36 L766,62 C766,72 748,72 748,72 C748,72 730,72 730,62 L730,36 " fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:1.5;"/><path d="M730,36 C730,46 748,46 748,46 C748,46 766,46 766,36 " fill="none" style="stroke:#708090;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="701.5" y="830.0811">Persistencia</text><path d="M730,843.3828 C730,833.3828 748,833.3828 748,833.3828 C748,833.3828 766,833.3828 766,843.3828 L766,869.3828 C766,879.3828 748,879.3828 748,879.3828 C748,879.3828 730,879.3828 730,869.3828 L730,843.3828 " fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#708090;stroke-width:1.5;"/><path d="M730,843.3828 C730,853.3828 748,853.3828 748,853.3828 C748,853.3828 766,853.3828 766,843.3828 " fill="none" style="stroke:#708090;stroke-width:1.5;"/><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="814.5" x="0" y="118.8633"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="118.8633" y2="118.8633"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="121.8633" y2="121.8633"/><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="114" x="350.25" y="108.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="356.25" y="124.3638">Inicialización</text><polygon fill="#000000" points="736,171.1289,746,175.1289,736,179.1289,740,175.1289" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="742" y1="175.1289" y2="175.1289"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="490.5" y="170.063">ObtenerValores</text><path d="M306,146.4297 L306,186.4297 L474,186.4297 L474,156.4297 L464,146.4297 L306,146.4297 " fill="#E0FFFF" filter="url(#f1qz1hv4gwj9xz)" style="stroke:#000000;stroke-width:1.0;"/><path d="M464,146.4297 L464,156.4297 L474,156.4297 L464,146.4297 " fill="#E0FFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="143" x="312" y="163.4966">Esto ocurre cuando se</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="312" y="178.6294">inicia el servicio.</text><path d="M442,202.6953 L508,202.6953 L508,209.6953 L498,219.6953 L442,219.6953 L442,202.6953 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="191.6641" style="stroke:#000000;stroke-width:2.0;" width="362.5" x="442" y="202.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="457" y="215.7622">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="235" x="523" y="214.9058">[Valores iniciales guardados en BD]</text><polygon fill="#000000" points="494.5,236.9609,484.5,240.9609,494.5,244.9609,490.5,240.9609" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="488.5" x2="747" y1="240.9609" y2="240.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="500.5" y="235.895">algorithmValues</text><polygon fill="#000000" points="644.5,266.0938,654.5,270.0938,644.5,274.0938,648.5,270.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="650.5" y1="270.0938" y2="270.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="149" x="490.5" y="265.0278">Crear(algorithmValues)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="656.5" y="293.9561">UCB</text><ellipse cx="674" cy="264.9609" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><line style="stroke:#708090;stroke-width:2.0;" x1="662" x2="686" y1="278.9609" y2="278.9609"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="442" x2="804.5" y1="308.2578" y2="308.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="447" y="318.4683">[No existen valores iniciales]</text><polygon fill="#000000" points="494.5,324.0625,484.5,328.0625,494.5,332.0625,490.5,328.0625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="488.5" x2="747" y1="328.0625" y2="328.0625"/><polygon fill="#000000" points="644.5,353.1953,654.5,357.1953,644.5,361.1953,648.5,357.1953" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="650.5" y1="357.1953" y2="357.1953"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="45" x="490.5" y="352.1294">Crear()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="656.5" y="381.0576">UCB</text><ellipse cx="674" cy="352.0625" fill="#FFFFFF" filter="url(#f1qz1hv4gwj9xz)" rx="12" ry="12" style="stroke:#708090;stroke-width:2.0;"/><line style="stroke:#708090;stroke-width:2.0;" x1="662" x2="686" y1="366.0625" y2="366.0625"/><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="814.5" x="0" y="421.9258"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="421.9258" y2="421.9258"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="424.9258" y2="424.9258"/><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="144" x="335.25" y="411.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="341.25" y="427.4263">Obtener anuncio</text><polygon fill="#000000" points="180.5,461.625,190.5,465.625,180.5,469.625,184.5,465.625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="33.5" x2="186.5" y1="465.625" y2="465.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="126" x="40.5" y="460.5591">Ingresar a la página</text><polygon fill="#000000" points="471.5,490.7578,481.5,494.7578,471.5,498.7578,475.5,494.7578" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="192.5" x2="477.5" y1="494.7578" y2="494.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="199.5" y="489.6919">obtenerOpcionAnuncio()</text><polygon fill="#000000" points="662,519.8906,672,523.8906,662,527.8906,666,523.8906" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="668" y1="523.8906" y2="523.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="490.5" y="518.8247">select()</text><polygon fill="#000000" points="494.5,549.0234,484.5,553.0234,494.5,557.0234,490.5,553.0234" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="488.5" x2="673" y1="553.0234" y2="553.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="500.5" y="547.9575">arm</text><polygon fill="#000000" points="203.5,578.1563,193.5,582.1563,203.5,586.1563,199.5,582.1563" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="197.5" x2="482.5" y1="582.1563" y2="582.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="209.5" y="577.0903">Opcion</text><polygon fill="#000000" points="44.5,607.2891,34.5,611.2891,44.5,615.2891,40.5,611.2891" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="38.5" x2="191.5" y1="611.2891" y2="611.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="105" x="50.5" y="606.2231">Muestra anuncio</text><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="3" style="stroke:#EEEEEE;stroke-width:1.0;" width="814.5" x="0" y="639.8555"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="639.8555" y2="639.8555"/><line style="stroke:#000000;stroke-width:1.0;" x1="0" x2="814.5" y1="642.8555" y2="642.8555"/><rect fill="#EEEEEE" filter="url(#f1qz1hv4gwj9xz)" height="23.1328" style="stroke:#000000;stroke-width:2.0;" width="168" x="323.25" y="629.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="329.25" y="645.356">Seleccionar anuncio</text><polygon fill="#000000" points="180.5,679.5547,190.5,683.5547,180.5,687.5547,184.5,683.5547" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="33.5" x2="186.5" y1="683.5547" y2="683.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="135" x="40.5" y="678.4888">Hacer clic en anuncio</text><polygon fill="#000000" points="471.5,708.6875,481.5,712.6875,471.5,716.6875,475.5,712.6875" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="192.5" x2="477.5" y1="712.6875" y2="712.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="267" x="199.5" y="707.6216">AsignarRecompensa(opcion, reconpensa)</text><polygon fill="#000000" points="662,737.8203,672,741.8203,662,745.8203,666,741.8203" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="668" y1="741.8203" y2="741.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="134" x="490.5" y="736.7544">reward(arm, reward)</text><polygon fill="#000000" points="494.5,766.9531,484.5,770.9531,494.5,774.9531,490.5,770.9531" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="488.5" x2="673" y1="770.9531" y2="770.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="500.5" y="765.8872">algorithmValues</text><polygon fill="#000000" points="736,796.0859,746,800.0859,736,804.0859,740,800.0859" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="483.5" x2="742" y1="800.0859" y2="800.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="490.5" y="795.02">GuardarValores(algorithmValues)</text><!--MD5=[9a006b7ae34d8f9886f5b292202a14ab]
+@startuml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+
+actor Usuario
+boundary Web
+control Servicio
+entity UCB
+database Persistencia
+
+== Inicialización ==
+Servicio -> Persistencia : ObtenerValores
+note left
+Esto ocurre cuando se 
+inicia el servicio.
+end note
+
+alt Valores iniciales guardados en BD 
+Persistencia - -> Servicio : algorithmValues
+create UCB
+Servicio -> UCB: Crear(algorithmValues)
+else No existen valores iniciales
+Persistencia - -> Servicio
+create UCB
+Servicio -> UCB: Crear()
+end
+
+
+== Obtener anuncio ==
+Usuario -> Web : Ingresar a la página
+Web -> Servicio : obtenerOpcionAnuncio()
+Servicio -> UCB : select()
+UCB - -> Servicio : arm
+Servicio - -> Web : Opcion
+Web - -> Usuario : Muestra anuncio
+
+== Seleccionar anuncio ==
+Usuario -> Web : Hacer clic en anuncio
+Web -> Servicio : AsignarRecompensa(opcion, reconpensa)
+Servicio -> UCB : reward(arm, reward)
+UCB - -> Servicio : algorithmValues
+Servicio -> Persistencia : GuardarValores(algorithmValues)
+@enduml
+
+@startuml
+skinparam usecase {
+  backgroundColor skyblue
+  BorderColor skyblue
+  BackgroundColor<< Correct >> lightgreen
+  BorderColor<< Correct >> lightgreen
+  ArrowColor black
+  ActorBorderColor black
+  ActorFontName Courier
+  BackgroundColor<< Error >> Antiquewhite
+  BorderColor<< Error >> Antiquewhite
+}
+skinparam sequence {
+  LifeLineBorderColor Green
+  ArrowColor black
+  ParticipantBorderColor black
+  ParticipantBackgroundColor GreenYellow
+  ParticipantFontColor black
+}
+skinparam actor {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam entity {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam state {
+  StartColor green
+  EndColor Red
+  BackgroundColor white
+  BackgroundColor<<Warning>> Olive
+  BorderColor black
+  ArrowColor Olive
+  BarColor green
+}
+skinparam activity {
+  StartColor green
+  BarColor black
+  EndColor red
+  BackgroundColor white
+  DiamondBackgroundColor white
+  DiamondBorderColor red
+  BorderColor black
+  ArrowColor black
+}
+skinparam cloud {
+  borderColor lightgray
+  backgroundColor white
+}
+skinparam node {
+  borderColor black
+  backgroundColor Yellow
+}
+skinparam interface {
+  borderColor black
+  backgroundColor lime
+}
+skinparam component {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam file {
+  borderColor black
+  backgroundColor white
+}
+skinparam queue {
+  borderColor black
+  backgroundColor springgreen
+}
+skinparam database {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam agent {
+  borderColor black
+  backgroundColor white
+}
+skinparam rectangle {
+  borderColor black
+  backgroundColor white
+}
+skinparam card {
+  borderColor black
+  backgroundColor white
+}
+skinparam note {
+  borderColor black
+  backgroundColor lightCyan
+}
+skinparam title {
+  FontSize 18
+}
+
+skinparam class {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor black
+}
+
+skinparam boundary {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam control {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam package {
+  borderColor slategray
+}
+
+actor Usuario
+boundary Web
+control Servicio
+entity UCB
+database Persistencia
+
+== Inicialización ==
+Servicio -> Persistencia : ObtenerValores
+note left
+Esto ocurre cuando se 
+inicia el servicio.
+end note
+
+alt Valores iniciales guardados en BD 
+Persistencia - -> Servicio : algorithmValues
+create UCB
+Servicio -> UCB: Crear(algorithmValues)
+else No existen valores iniciales
+Persistencia - -> Servicio
+create UCB
+Servicio -> UCB: Crear()
+end
+
+
+== Obtener anuncio ==
+Usuario -> Web : Ingresar a la página
+Web -> Servicio : obtenerOpcionAnuncio()
+Servicio -> UCB : select()
+UCB - -> Servicio : arm
+Servicio - -> Web : Opcion
+Web - -> Usuario : Muestra anuncio
+
+== Seleccionar anuncio ==
+Usuario -> Web : Hacer clic en anuncio
+Web -> Servicio : AsignarRecompensa(opcion, reconpensa)
+Servicio -> UCB : reward(arm, reward)
+UCB - -> Servicio : algorithmValues
+Servicio -> Persistencia : GuardarValores(algorithmValues)
+@enduml
+
+PlantUML version 1.2020.24(Fri Dec 18 17:00:36 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
