@@ -1,0 +1,20 @@
+@startuml
+!include styles.puml
+title Diagrama de componentes
+
+interface "HTTP" as http
+
+
+package "Backend" {
+    database Persistencia
+    [Servicio] - http
+    [Servicio] -down-> Persistencia
+    [Servicio] -left-> [UCB]
+
+}
+
+package "Frontend" {
+    [Web] -> http
+}
+
+@enduml
