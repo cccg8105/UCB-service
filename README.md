@@ -33,5 +33,12 @@ El siguiente gráfico muestra cómo interactúan los componentes en el escenario
 [Implementación de aprendizaje automático para la selección óptima de anuncios en páginas web](/docs/CasoEstudio.pdf)
 
 ### Anexos
-[A/B Testing una buena forma de medir el éxito de tus campañas](/docs/anexos/A_B Testing_ una buena forma de medir el éxito de tus campañas.pdf)
-[A/B Testing una buena forma de medir el éxito de tus campañas](/docs/anexos/A_B Testing_ una buena forma de medir el éxito de tus campañas.pdf)
+[A/B Testing una buena forma de medir el éxito de tus campañas](/docs/anexos/Anexo1.pdf)
+[Aprendizaje por refuerzo: Bandido multibrazo con código.](/docs/anexos/Anexo2.pdf)
+[Aprendizaje por Refuerzo: Introducción al mundo del RL](/docs/anexos/docs/anexos/Anexo3.pdf)
+[Leveraging Power of Reinforcement learning in Digital Marketing](/docs/anexos/docs/anexos/Anexo4.pdf)
+[Multi Armed Bandit Algorithms For Website Optimization](/docs/anexos/docs/anexos/Anexo5.pdf)
+[Multi-armed bandit - Wikipedia](/docs/anexos/docs/anexos/Anexo6.pdf)
+[Multi-Armed Bandits: UCB Algorithm](/docs/anexos/docs/anexos/Anexo7.pdf)
+[Ratio de conversión: ¿Qué es y cómo calcularlo?](/docs/anexos/docs/anexos/Anexo8.pdf)
+[The Upper Confidence Bound Algorithm – Bandit Algorithms](/docs/anexos/docs/anexos/Anexo9.pdf)
