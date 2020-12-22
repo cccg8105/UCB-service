@@ -1,0 +1,20 @@
+version: '3.5'
+volumes:
+  mongo_data:
+services:
+  api:
+    container_name: ucb-container
+    build: .
+    image: ucb-service:1
+    expose: 
+      - "5000"
+    ports:
+      - '5000:5000'
+    depends_on:
+      - mongo
+  mongo:
+    container_name: mongoDB-container
+    image: mongo
+    volumes:
+      - mongo_data:/var/lib/mongo
+    
