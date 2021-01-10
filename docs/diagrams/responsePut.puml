@@ -1,7 +1,4 @@
 @startjson
-#highlight "option" / "int" / "0" / "0"
-#highlight "option" / "int" / "1" / "1"
-#highlight "option" / "int" / "2" / "2"
 
 {"response": { "string": "Reward assigned"}}
 @endjson
