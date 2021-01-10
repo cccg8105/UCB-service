@@ -49,6 +49,7 @@ __Respuesta__
 ![response](./imgs/responseGet.svg)
 ### PUT
 http://localhost:5000/api/ucb
+
 __Datos de entrada__
 ```
 {
@@ -57,6 +58,7 @@ __Datos de entrada__
 }
 ```
 ![input](./imgs/inputPut.svg)
+
 __Respuesta__
 ```
 {
