@@ -4,11 +4,9 @@ name: CI
 
 # Controls when the action will run. 
 on:
-  pull_request:
+  push:
     paths:
       - '**.puml'
-    branches: master
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -19,7 +17,7 @@ jobs:
     name: plantuml
     steps:
     - name: checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1
       with:
         fetch-depth: 0
     - name: plantuml
