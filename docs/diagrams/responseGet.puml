@@ -1,0 +1,7 @@
+@startjson
+#highlight "option" / "int" / "0" / "0"
+#highlight "option" / "int" / "1" / "1"
+#highlight "option" / "int" / "2" / "2"
+
+{"option": { "int": [{"0": "Anuncio A"},{"1": "Anuncio B"},{"2": "Anuncio C"}]}}
+@endjson
