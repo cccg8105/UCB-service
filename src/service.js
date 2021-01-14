@@ -2,12 +2,12 @@ import Algorithm from 'ucb'
 import Yenv from 'yenv'
 import Repository from './repository'
 
-const repository = new Repository()
 const env = new Yenv()
 
 export default class {
   constructor() {
-    const info = repository.getInfoUcb().then(info => {
+    this.repository = new Repository()
+    const info = this.repository.getInfoUcb().then(info => {
       return info
     })
     if (info) {
@@ -25,6 +25,6 @@ export default class {
 
   async reward(option, wasPicked) {
     const updatedAlgorithm = await this.algorithm.reward(option, wasPicked)
-    this.id = await repository.saveInfoUcb(this.id, updatedAlgorithm)
+    this.id = await this.repository.saveInfoUcb(this.id, updatedAlgorithm)
   }
 }

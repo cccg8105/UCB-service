@@ -3,23 +3,28 @@ import { MongoClient } from 'mongodb'
 import { ObjectId } from 'mongodb'
 
 const env = new Yenv()
-const client = new MongoClient(
-  `mongodb://${env.DB_SERVER.SERVER_NAME}:${env.DB_SERVER.PORT}`,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+
+export default class {
+  getConnect() {
+    if (!this.client) {
+      this.client = new MongoClient(
+        `mongodb://${env.DB_SERVER.SERVER_NAME}:${env.DB_SERVER.PORT}`,
+        {
+          useNewUrlParser: true,
+          useUnifiedTopology: true,
+        }
+      )
+
+      this.client.connect()
+    }
+    return this.client
+      .db(env.DB_SERVER.DATABASE)
+      .collection(env.DB_SERVER.COLLECTION)
   }
-)
 
-client.connect()
-const ucbCollection = client
-  .db(env.DB_SERVER.DATABASE)
-  .collection(env.DB_SERVER.COLLECTION)
-
-class UcbRepository {
   async getInfoUcb() {
     try {
-      return await ucbCollection.findOne({})
+      return await this.getConnect().findOne({})
     } catch (err) {
       console.log(err)
     }
@@ -28,10 +33,10 @@ class UcbRepository {
   async saveInfoUcb(id, info) {
     try {
       if (!id) {
-        const resp = await ucbCollection.insertOne({ ucbInfo: info })
+        const resp = await this.getConnect().insertOne({ ucbInfo: info })
         id = resp.insertedId
       } else {
-        await ucbCollection.updateOne(
+        await this.getConnect().updateOne(
           { _id: ObjectId(id) },
           { $set: { ucbInfo: info } }
         )
@@ -43,5 +48,3 @@ class UcbRepository {
     return id
   }
 }
-
-export default UcbRepository
