@@ -36,8 +36,6 @@
   "scripts": {
     "develop": "cross-env NODE_ENV=base nodemon src/index.js",
     "start": "node dist/index.js",
-    "test": "cross-env NODE_ENV=test jest --passWithNoTests",
-    "test:integration": "npm test -- test/ucb.spec.js",
     "build": "babel src --out-dir dist --copy-files",
     "serve": "cross-env NODE_ENV=production node ./dist/index.js"
   },
