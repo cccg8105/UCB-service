@@ -1,7 +1,9 @@
-import { select, reward as _reward, init } from './ucbService'
+import Service from './service'
+
+let service = null
 
 export async function initialize() {
-  init()
+  service = new Service()
 }
 
 export async function infoService(_, reply) {
@@ -12,7 +14,7 @@ export async function infoService(_, reply) {
 }
 
 export async function getOption(_, reply) {
-  const result = await select()
+  const result = await service.select()
   reply
     .code(200)
     .header('Content-Type', 'application/json; charset=utf-8')
@@ -21,7 +23,7 @@ export async function getOption(_, reply) {
 
 export async function setReward(req, reply) {
   const { option, reward } = req.body
-  await _reward(option, reward)
+  await service.reward(option, reward)
   reply
     .code(200)
     .header('Content-Type', 'application/json; charset=utf-8')

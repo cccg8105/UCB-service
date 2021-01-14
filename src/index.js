@@ -1,12 +1,20 @@
 const fastify = require('fastify')({ logger: true })
 import routes from './routes'
-import { initialize } from './ucbController'
+import { initialize } from './controller'
 import Yenv from 'yenv'
 
 const env = new Yenv()
 
 routes.forEach(route => {
   fastify.route(route)
+})
+
+fastify.register(require('fastify-swagger'), {
+  mode: 'static',
+  specification: {
+    path: 'swagger.yaml'
+  },
+  exposeRoute: true
 })
 
 const start = async () => {
