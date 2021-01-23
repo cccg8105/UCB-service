@@ -9,14 +9,6 @@ routes.forEach(route => {
   fastify.route(route)
 })
 
-fastify.register(require('fastify-swagger'), {
-  mode: 'static',
-  specification: {
-    path: 'swagger.yaml'
-  },
-  exposeRoute: true
-})
-
 const start = async () => {
   initialize()
   try {
