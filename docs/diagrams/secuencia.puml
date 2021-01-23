@@ -15,9 +15,9 @@ inicia el servicio.
 end note
 
 alt Valores iniciales guardados en BD 
-Persistencia --> Servicio : algorithmValues
+Persistencia --> Servicio : parámetros algoritmo
 create UCB
-Servicio -> UCB: Crear(algorithmValues)
+Servicio -> UCB: Crear(parámetros algoritmo)
 else No existen valores iniciales
 Persistencia --> Servicio
 create UCB
@@ -33,12 +33,11 @@ UCB --> Servicio : arm
 Servicio --> Web : Opcion
 Web --> Usuario : Muestra anuncio
 
-== Seleccionar anuncio ==
+== Asignar recompensa ==
 Usuario -> Web : Hacer clic en anuncio
 Web -> Servicio : AsignarRecompensa(opcion, reconpensa)
-Servicio -> UCB : reward(arm, reward)
-UCB --> Servicio : algorithmValues
-Servicio -> Persistencia : GuardarValores(algorithmValues)
-
+Servicio -> UCB : reward(opcion, reconpensa)
+UCB --> Servicio : parámetros algoritmo
+Servicio -> Persistencia : GuardarValores(parámetros algoritmo)
 
 @enduml
