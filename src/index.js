@@ -1,6 +1,6 @@
 const fastify = require('fastify')({ logger: true })
 import routes from './routes'
-import { initialize } from './ucbController'
+import { initialize } from './controller'
 import Yenv from 'yenv'
 
 const env = new Yenv()
