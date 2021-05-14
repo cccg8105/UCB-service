@@ -4,9 +4,10 @@
 - [Descripción](#Descripción)
 - [Resultados](#Resultados)
 - [Diseño](#Diseño)
+- [Documentación](#Documentación)
 - [Peticiones](#Peticiones)
 - [Dependencias](#Dependencias)
-- [Documentación](#Documentación)
+- [Investigación](#Investigación)
 
 ## Descripción
 
@@ -37,6 +38,10 @@ La solución consta de 3 componentes principales. El primero, es el encargado de
 El siguiente gráfico muestra cómo interactúan los componentes en el escenario indicado anteriormente:
 
 ![secuencia](./imgs/secuencia.svg)
+
+## Documentación
+
+[Ver documentación de código fuente](/code_docs/index.html)
 
 ## Peticiones
 ### GET
@@ -86,6 +91,10 @@ npm install yenv
 ```
 
 ## Documentación
+
+[]
+
+## Investigación
 [Implementación de aprendizaje automático para la selección óptima de anuncios en páginas web](/docs/CasoEstudio.pdf)
 
 ### Anexos
