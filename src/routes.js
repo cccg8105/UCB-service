@@ -1,6 +1,11 @@
-import { getOption, setReward } from './ucbController'
+import { getOption, setReward, infoService } from './controller'
 
 const routes = [
+  {
+    method: 'GET',
+    url: '/',
+    handler: infoService,
+  },
   {
     method: 'GET',
     url: '/api/ucb',

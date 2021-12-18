@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="702px" preserveAspectRatio="none" style="width:718px;height:702px;" version="1.1" viewBox="0 0 718 702" width="718px" zoomAndPan="magnify"><defs><filter height="300%" id="f1invukogi2xcq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="309" x="203.5" y="26.708">Proceso de selección de anuncios</text><ellipse cx="178.5" cy="69.6514" fill="#008000" filter="url(#f1invukogi2xcq)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="110" x="123.5" y="99.6514"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="133.5" y="120.79">Ingresar a</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="133.5" y="134.7588">aplicación web</text><polygon fill="#FFFFFF" filter="url(#f1invukogi2xcq)" points="108.5,371.4014,248.5,371.4014,260.5,383.4014,248.5,395.4014,108.5,395.4014,96.5,383.4014,108.5,371.4014" style="stroke:#FF0000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="140" x="108.5" y="387.2095">¿Promoción interesante?</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="87.5" y="380.8071">sí</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="14" x="260.5" y="380.8071">no</text><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="131" x="21" y="405.4014"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="31" y="426.54">Comprar producto</text><ellipse cx="86.5" cy="469.3701" fill="#FFFFFF" filter="url(#f1invukogi2xcq)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.5;"/><path d="M86.6094,465.542 L85,469.8857 L88.2188,469.8857 L86.6094,465.542 Z M85.9375,464.3701 L87.2813,464.3701 L90.6094,473.1201 L89.375,473.1201 L88.5781,470.8701 L84.6406,470.8701 L83.8438,473.1201 L82.5938,473.1201 L85.9375,464.3701 Z " fill="#000000"/><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="33.9688" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="109" x="216" y="405.4014"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="226" y="426.54">Cerrar ventana</text><ellipse cx="270.5" cy="469.3701" fill="#FFFFFF" filter="url(#f1invukogi2xcq)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.5;"/><path d="M270.6094,465.542 L269,469.8857 L272.2188,469.8857 L270.6094,465.542 Z M269.9375,464.3701 L271.2813,464.3701 L274.6094,473.1201 L273.375,473.1201 L272.5781,470.8701 L268.6406,470.8701 L267.8438,473.1201 L266.5938,473.1201 L269.9375,464.3701 Z " fill="#000000"/><line style="stroke:#000000;stroke-width:2.0;" x1="15" x2="15" y1="33.6982" y2="685.2451"/><rect fill="#F5F5DC" height="651.5469" style="stroke:#F5F5DC;stroke-width:1.0;" width="173" x="335" y="33.6982"/><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="141" x="349" y="167.5889"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="359" y="188.7275">Seleccionar anuncio</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="359" y="202.6963">de producto</text><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="117" x="361" y="303.4639"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="97" x="371" y="324.6025">Mostrar ventana</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="371" y="338.5713">del anuncio</text><ellipse cx="419.5" cy="499.3701" fill="#FFFFFF" filter="url(#f1invukogi2xcq)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.5;"/><path d="M419.6094,495.542 L418,499.8857 L421.2188,499.8857 L419.6094,495.542 Z M418.9375,494.3701 L420.2813,494.3701 L423.6094,503.1201 L422.375,503.1201 L421.5781,500.8701 L417.6406,500.8701 L416.8438,503.1201 L415.5938,503.1201 L418.9375,494.3701 Z " fill="#000000"/><rect fill="#FFFFFF" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="157" x="341" y="529.3701"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="137" x="351" y="550.5088">Asignar recompensa o</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="351" y="564.4775">penalidad al anuncio</text><line style="stroke:#000000;stroke-width:2.0;" x1="335" x2="335" y1="33.6982" y2="685.2451"/><rect fill="#E0FFFF" height="651.5469" style="stroke:#E0FFFF;stroke-width:1.0;" width="190" x="508" y="33.6982"/><rect fill="#87CEFA" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="166" x="518" y="235.5264"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="146" x="528" y="256.665">Obtener anuncio óptimo</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="112" x="528" y="270.6338">con algoritmo UCB</text><rect fill="#87CEFA" filter="url(#f1invukogi2xcq)" height="47.9375" rx="12.5" ry="12.5" style="stroke:#000000;stroke-width:1.5;" width="174" x="514" y="597.3076"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="154" x="524" y="618.4463">Guardar valor y actualizar</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119" x="524" y="632.415">indicadores en UCB</text><ellipse cx="601" cy="675.2451" fill="#FFFFFF" filter="url(#f1invukogi2xcq)" rx="10" ry="10" style="stroke:#FF0000;stroke-width:1.5;"/><line style="stroke:#FF0000;stroke-width:2.5;" x1="594.8128" x2="607.1872" y1="669.0579" y2="681.4323"/><line style="stroke:#FF0000;stroke-width:2.5;" x1="607.1872" x2="594.8128" y1="669.0579" y2="681.4323"/><line style="stroke:#000000;stroke-width:2.0;" x1="508" x2="508" y1="33.6982" y2="685.2451"/><line style="stroke:#000000;stroke-width:2.0;" x1="698" x2="698" y1="33.6982" y2="685.2451"/><line style="stroke:#000000;stroke-width:1.5;" x1="178.5" x2="178.5" y1="79.6514" y2="99.6514"/><polygon fill="#000000" points="174.5,89.6514,178.5,99.6514,182.5,89.6514,178.5,93.6514" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="86.5" x2="86.5" y1="439.3701" y2="459.3701"/><polygon fill="#000000" points="82.5,449.3701,86.5,459.3701,90.5,449.3701,86.5,453.3701" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="270.5" x2="270.5" y1="439.3701" y2="459.3701"/><polygon fill="#000000" points="266.5,449.3701,270.5,459.3701,274.5,449.3701,270.5,453.3701" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="96.5" x2="86.5" y1="383.4014" y2="383.4014"/><line style="stroke:#000000;stroke-width:1.5;" x1="86.5" x2="86.5" y1="383.4014" y2="405.4014"/><polygon fill="#000000" points="82.5,395.4014,86.5,405.4014,90.5,395.4014,86.5,399.4014" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="260.5" x2="270.5" y1="383.4014" y2="383.4014"/><line style="stroke:#000000;stroke-width:1.5;" x1="270.5" x2="270.5" y1="383.4014" y2="405.4014"/><polygon fill="#000000" points="266.5,395.4014,270.5,405.4014,274.5,395.4014,270.5,399.4014" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="509.3701" y2="529.3701"/><polygon fill="#000000" points="415.5,519.3701,419.5,529.3701,423.5,519.3701,419.5,523.3701" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="601" x2="601" y1="645.2451" y2="665.2451"/><polygon fill="#000000" points="597,655.2451,601,665.2451,605,655.2451,601,659.2451" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="178.5" x2="178.5" y1="147.5889" y2="152.5889"/><line style="stroke:#000000;stroke-width:1.5;" x1="178.5" x2="419.5" y1="152.5889" y2="152.5889"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="152.5889" y2="167.5889"/><polygon fill="#000000" points="415.5,157.5889,419.5,167.5889,423.5,157.5889,419.5,161.5889" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="215.5264" y2="220.5264"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="601" y1="220.5264" y2="220.5264"/><line style="stroke:#000000;stroke-width:1.5;" x1="601" x2="601" y1="220.5264" y2="235.5264"/><polygon fill="#000000" points="597,225.5264,601,235.5264,605,225.5264,601,229.5264" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="601" x2="601" y1="283.4639" y2="288.4639"/><line style="stroke:#000000;stroke-width:1.5;" x1="601" x2="419.5" y1="288.4639" y2="288.4639"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="288.4639" y2="303.4639"/><polygon fill="#000000" points="415.5,293.4639,419.5,303.4639,423.5,293.4639,419.5,297.4639" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="351.4014" y2="356.4014"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="178.5" y1="356.4014" y2="356.4014"/><line style="stroke:#000000;stroke-width:1.5;" x1="178.5" x2="178.5" y1="356.4014" y2="371.4014"/><polygon fill="#000000" points="174.5,361.4014,178.5,371.4014,182.5,361.4014,178.5,365.4014" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="419.5" y1="577.3076" y2="582.3076"/><line style="stroke:#000000;stroke-width:1.5;" x1="419.5" x2="601" y1="582.3076" y2="582.3076"/><line style="stroke:#000000;stroke-width:1.5;" x1="601" x2="601" y1="582.3076" y2="597.3076"/><polygon fill="#000000" points="597,587.3076,601,597.3076,605,587.3076,601,591.3076" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="64" x="143" y="50.4063">Cliente</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="99" x="372" y="50.4063">Portal web</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="73" x="566.5" y="50.4063">Servicio</text><!--MD5=[dd1cf36815280bc4356459c503cf9d37]
+@startuml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+title Proceso de selección de anuncios
+|Cliente|
+start
+:Ingresar a 
+aplicación web;
+|#Beige|Portal web|
+:Seleccionar anuncio 
+de producto;
+|#lightCyan|Servicio|
+#LightSkyBlue:Obtener anuncio óptimo
+con algoritmo UCB;
+|Portal web|
+:Mostrar ventana
+del anuncio;
+|Cliente|
+if (¿Promoción interesante?) then (sí)
+:Comprar producto;
+(A)
+detach
+else (no)
+|Cliente|
+:Cerrar ventana;
+(A)
+detach
+endif
+|Portal web|
+(A)
+:Asignar recompensa o 
+penalidad al anuncio;
+|Servicio|
+#LightSkyBlue:Guardar valor y actualizar
+indicadores en UCB;
+end
+@enduml
+
+@startuml
+skinparam usecase {
+  backgroundColor skyblue
+  BorderColor skyblue
+  BackgroundColor<< Correct >> lightgreen
+  BorderColor<< Correct >> lightgreen
+  ArrowColor black
+  ActorBorderColor black
+  ActorFontName Courier
+  BackgroundColor<< Error >> Antiquewhite
+  BorderColor<< Error >> Antiquewhite
+}
+skinparam sequence {
+  LifeLineBorderColor Green
+  ArrowColor black
+  ParticipantBorderColor black
+  ParticipantBackgroundColor GreenYellow
+  ParticipantFontColor black
+}
+skinparam actor {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam entity {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam state {
+  StartColor green
+  EndColor Red
+  BackgroundColor white
+  BackgroundColor<<Warning>> Olive
+  BorderColor black
+  ArrowColor Olive
+  BarColor green
+}
+skinparam activity {
+  StartColor green
+  BarColor black
+  EndColor red
+  BackgroundColor white
+  DiamondBackgroundColor white
+  DiamondBorderColor red
+  BorderColor black
+  ArrowColor black
+}
+skinparam cloud {
+  borderColor lightgray
+  backgroundColor white
+}
+skinparam node {
+  borderColor black
+  backgroundColor Yellow
+}
+skinparam interface {
+  borderColor black
+  backgroundColor lime
+}
+skinparam component {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam file {
+  borderColor black
+  backgroundColor white
+}
+skinparam queue {
+  borderColor black
+  backgroundColor springgreen
+}
+skinparam database {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam agent {
+  borderColor black
+  backgroundColor white
+}
+skinparam rectangle {
+  borderColor black
+  backgroundColor white
+}
+skinparam card {
+  borderColor black
+  backgroundColor white
+}
+skinparam note {
+  borderColor black
+  backgroundColor lightCyan
+}
+skinparam title {
+  FontSize 18
+}
+
+skinparam class {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor black
+}
+
+skinparam boundary {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam control {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam package {
+  borderColor slategray
+}
+title Proceso de selección de anuncios
+|Cliente|
+start
+:Ingresar a 
+aplicación web;
+|#Beige|Portal web|
+:Seleccionar anuncio 
+de producto;
+|#lightCyan|Servicio|
+#LightSkyBlue:Obtener anuncio óptimo
+con algoritmo UCB;
+|Portal web|
+:Mostrar ventana
+del anuncio;
+|Cliente|
+if (¿Promoción interesante?) then (sí)
+:Comprar producto;
+(A)
+detach
+else (no)
+|Cliente|
+:Cerrar ventana;
+(A)
+detach
+endif
+|Portal web|
+(A)
+:Asignar recompensa o 
+penalidad al anuncio;
+|Servicio|
+#LightSkyBlue:Guardar valor y actualizar
+indicadores en UCB;
+end
+@enduml
+
+PlantUML version 1.2021.01beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,19 @@
+@startuml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+title Diagrama de componentes
+
+interface "HTTP" as http
+
+package "Backend" {
+    database Persistencia
+    [Servicio] - http
+    [Servicio] -down-> Persistencia
+    [Servicio] -left-> [UCB]
+
+}
+
+package "Frontend" {
+    [Web] -> http
+}
+
+@enduml

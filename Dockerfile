@@ -15,14 +15,10 @@ COPY env.yaml /dist/env.yaml
 
 FROM node:alpine
 
-RUN apk --no-cache add g++ gcc libgcc libstdc++ linux-headers make python
-
-# Información de metadata
 LABEL cccg.app.Ucb-Service="Agente UCB" \ 
       maintainer="cg.cardenas.c@gmail.com" \
       version="1.0"
 
-# Directorio de trabajo
 WORKDIR /app
 
 COPY --from=build /app/dist ./dist

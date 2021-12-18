@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="235px" preserveAspectRatio="none" style="width:429px;height:235px;" version="1.1" viewBox="0 0 429 235" width="429px" zoomAndPan="magnify"><defs><filter height="300%" id="f1q8ytpcrlsvi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="250" x="83" y="16.708">Diagrama de componentes</text><!--MD5=[b4e09d266be9964199f2622adcc056fa]
+cluster Backend--><polygon fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" points="16,26.9531,90,26.9531,97,49.25,250,49.25,250,228.9531,16,228.9531,16,26.9531" style="stroke:#708090;stroke-width:1.5;"/><line style="stroke:#708090;stroke-width:1.5;" x1="16" x2="97" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="68" x="20" y="41.9482">Backend</text><!--MD5=[fca8240bc233c06068545f9c8883ae88]
+cluster Frontend--><polygon fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" points="306,26.9531,385,26.9531,392,49.25,412,49.25,412,123.9531,306,123.9531,306,26.9531" style="stroke:#708090;stroke-width:1.5;"/><line style="stroke:#708090;stroke-width:1.5;" x1="306" x2="392" y1="49.25" y2="49.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="310" y="41.9482">Frontend</text><!--MD5=[f6504acd4c47c2a7ca4239ef5d8eda29]
+entity Persistencia--><path d="M126.5,177.9531 C126.5,167.9531 180,167.9531 180,167.9531 C180,167.9531 233.5,167.9531 233.5,177.9531 L233.5,203.25 C233.5,213.25 180,213.25 180,213.25 C180,213.25 126.5,213.25 126.5,203.25 L126.5,177.9531 " fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" style="stroke:#708090;stroke-width:1.5;"/><path d="M126.5,177.9531 C126.5,187.9531 180,187.9531 180,187.9531 C180,187.9531 233.5,187.9531 233.5,177.9531 " fill="none" style="stroke:#708090;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="136.5" y="204.9482">Persistencia</text><!--MD5=[f380f36a1ea14fd2cf3eb783d0d300a7]
+entity Servicio--><rect fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" height="46.2969" style="stroke:#708090;stroke-width:1.5;" width="97" x="136.5" y="61.9531"/><rect fill="#FFFFFF" height="10" style="stroke:#708090;stroke-width:1.5;" width="15" x="213.5" y="66.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="211.5" y="68.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="211.5" y="72.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="151.5" y="94.9482">Servicio</text><!--MD5=[5e993a117d6758fdad1972da0d11d491]
+entity UCB--><rect fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" height="46.2969" style="stroke:#708090;stroke-width:1.5;" width="69" x="32.5" y="61.9531"/><rect fill="#FFFFFF" height="10" style="stroke:#708090;stroke-width:1.5;" width="15" x="81.5" y="66.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="79.5" y="68.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="79.5" y="72.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="47.5" y="94.9482">UCB</text><!--MD5=[3193059314a247eafe92785e7a6ac74f]
+entity Web--><rect fill="#FFFFFF" filter="url(#f1q8ytpcrlsvi)" height="46.2969" style="stroke:#708090;stroke-width:1.5;" width="73" x="322.5" y="61.9531"/><rect fill="#FFFFFF" height="10" style="stroke:#708090;stroke-width:1.5;" width="15" x="375.5" y="66.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="373.5" y="68.9531"/><rect fill="#FFFFFF" height="2" style="stroke:#708090;stroke-width:1.5;" width="4" x="373.5" y="72.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="337.5" y="94.9482">Web</text><!--MD5=[fcd7b9b58b982891a4c065296d4ac5c8]
+entity http--><ellipse cx="278" cy="84.9531" fill="#00FF00" filter="url(#f1q8ytpcrlsvi)" rx="8" ry="8" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="259.5" y="114.9482">HTTP</text><!--MD5=[3165a4b2e766ae12cab3e183757171ce]
+link Servicio to http--><path d="M233.68,84.9531 C245.452,84.9531 257.225,84.9531 268.997,84.9531 " fill="none" id="Servicio-http" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[932912cf3030d9dc950972102a85811c]
+link Servicio to Persistencia--><path d="M183.927,108.1561 C183.158,124.0901 182.116,145.6433 181.299,162.554 " fill="none" id="Servicio-to-Persistencia" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="181.054,167.6417,185.4836,158.8452,181.2953,162.6476,177.493,158.4592,181.054,167.6417" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[1577ec2866609b801f532cc373c353f1]
+reverse link UCB to Servicio--><path d="M106.746,84.9531 C116.645,84.9531 126.543,84.9531 136.441,84.9531 " fill="none" id="UCB-backto-Servicio" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="101.57,84.9531,110.57,88.9531,106.57,84.9531,110.57,80.9531,101.57,84.9531" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[bae0870aa9666cde3bef20f469bd5634]
+link Web to http--><path d="M322.246,84.9531 C312.291,84.9531 302.336,84.9531 292.382,84.9531 " fill="none" id="Web-to-http" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="287.176,84.9531,296.176,88.9531,292.176,84.9531,296.176,80.9531,287.176,84.9531" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[b9937eb8b2fd630cea0c0bebc4d9387b]
+@startuml
+!include https://gist.githubusercontent.com/cccg8105/4054e13aa1139ab583f7be54fb5c6960/raw/3c760a2f5d568343272174d35741e4a7f2741b5e/styles.puml
+title Diagrama de componentes
+
+interface "HTTP" as http
+
+package "Backend" {
+    database Persistencia
+    [Servicio] - http
+    [Servicio] -down-> Persistencia
+    [Servicio] -left-> [UCB]
+
+}
+
+package "Frontend" {
+    [Web] -> http
+}
+@enduml
+
+@startuml
+skinparam usecase {
+  backgroundColor skyblue
+  BorderColor skyblue
+  BackgroundColor<< Correct >> lightgreen
+  BorderColor<< Correct >> lightgreen
+  ArrowColor black
+  ActorBorderColor black
+  ActorFontName Courier
+  BackgroundColor<< Error >> Antiquewhite
+  BorderColor<< Error >> Antiquewhite
+}
+skinparam sequence {
+  LifeLineBorderColor Green
+  ArrowColor black
+  ParticipantBorderColor black
+  ParticipantBackgroundColor GreenYellow
+  ParticipantFontColor black
+}
+skinparam actor {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam entity {
+  backgroundColor white
+  borderColor slategray
+}
+
+skinparam state {
+  StartColor green
+  EndColor Red
+  BackgroundColor white
+  BackgroundColor<<Warning>> Olive
+  BorderColor black
+  ArrowColor Olive
+  BarColor green
+}
+skinparam activity {
+  StartColor green
+  BarColor black
+  EndColor red
+  BackgroundColor white
+  DiamondBackgroundColor white
+  DiamondBorderColor red
+  BorderColor black
+  ArrowColor black
+}
+skinparam cloud {
+  borderColor lightgray
+  backgroundColor white
+}
+skinparam node {
+  borderColor black
+  backgroundColor Yellow
+}
+skinparam interface {
+  borderColor black
+  backgroundColor lime
+}
+skinparam component {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam file {
+  borderColor black
+  backgroundColor white
+}
+skinparam queue {
+  borderColor black
+  backgroundColor springgreen
+}
+skinparam database {
+  borderColor slategray
+  backgroundColor white
+}
+skinparam agent {
+  borderColor black
+  backgroundColor white
+}
+skinparam rectangle {
+  borderColor black
+  backgroundColor white
+}
+skinparam card {
+  borderColor black
+  backgroundColor white
+}
+skinparam note {
+  borderColor black
+  backgroundColor lightCyan
+}
+skinparam title {
+  FontSize 18
+}
+
+skinparam class {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor black
+}
+
+skinparam boundary {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam control {
+  BackgroundColor white
+  ArrowColor black
+  BorderColor slategray
+}
+
+skinparam package {
+  borderColor slategray
+}
+title Diagrama de componentes
+
+interface "HTTP" as http
+
+package "Backend" {
+    database Persistencia
+    [Servicio] - http
+    [Servicio] -down-> Persistencia
+    [Servicio] -left-> [UCB]
+
+}
+
+package "Frontend" {
+    [Web] -> http
+}
+@enduml
+
+PlantUML version 1.2020.24(Fri Dec 18 17:00:36 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
