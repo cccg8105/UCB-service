@@ -1,6 +1,5 @@
 import Yenv from 'yenv'
-import { MongoClient } from 'mongodb'
-import { ObjectId } from 'mongodb'
+import { MongoClient, ObjectId } from 'mongodb'
 
 const env = new Yenv()
 

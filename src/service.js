@@ -7,8 +7,8 @@ const env = new Yenv()
 export default class {
   constructor() {
     this.repository = new Repository()
-    const info = this.repository.getInfoUcb().then(info => {
-      return info
+    const info = this.repository.getInfoUcb().then(data => {
+      return data
     })
     if (info) {
       this.id = info._id
@@ -17,8 +17,9 @@ export default class {
   }
 
   async select() {
-    const option = await this.algorithm.select().then(arm => {
-      return arm
+    let option = {}
+    await this.algorithm.select().then(arm => {
+      option = arm
     })
     return option
   }

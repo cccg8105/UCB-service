@@ -25,7 +25,7 @@ COPY --from=build /app/dist ./dist
 COPY --from=build /app/env.yaml .
 COPY --from=build /app/package.json .
 
-EXPOSE 5000
+EXPOSE 3000
 
 RUN yarn install --production
 
